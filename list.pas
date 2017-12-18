@@ -27,11 +27,11 @@ type
 // Создает пустой список
 //function create_list(): PTList;
 
-// Вставляет новый элемент после указанного
-//procedure insert(iterator: TIterator; value: TValue);
-
 // Вставляет новый элемент перед указанным
 //procedure insert(iterator: TIterator; value: TValue);
+
+// Вставляет новый элемент после указанного
+//procedure insert_after(iterator: TIterator; value: TValue);
 
 // Вставляет новый элемент в начало списка
 //procedure push_front(list: PTList; value: TValue);
