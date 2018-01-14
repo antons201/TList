@@ -6,7 +6,6 @@ function test_19_create_list(): boolean;
 var
   list1: PTList;
 begin
-  new(list1);
   list1:=create_list();
   result := (get_size(list1) = 0) and (get_begin(list1) = get_end(list1));
 end;
@@ -16,7 +15,6 @@ var
   list1: PTList;
   mass:array[1..2] of integer;
 begin
-  new(list1);
   list1:=create_list();
   mass[1]:=5;
   mass[2]:=10;
@@ -30,7 +28,6 @@ var
   list1: PTList;
   mass:array[1..2] of integer;
 begin
-  new(list1);
   list1:=create_list();
   mass[1]:=5;
   mass[2]:=10;
@@ -44,7 +41,6 @@ var
   list1: PTList;
   mass:array[1..2] of integer;
 begin
-  new(list1);
   list1:=create_list();
   mass[1]:=5;
   mass[2]:=10;
@@ -58,7 +54,6 @@ var
   list1: PTList;
   mass:array[1..2] of integer;
 begin
-  new(list1);
   list1:=create_list();
   mass[1]:=5;
   mass[2]:=10;
@@ -72,7 +67,6 @@ var
   list1: PTList;
   mass:array[1..2] of integer;
 begin
-  new(list1);
   list1:=create_list();
   mass[1]:=5;
   mass[2]:=10;
@@ -87,7 +81,6 @@ var
   mass:array[1..2] of integer;
   a:integer;
 begin
-  new(list1);
   list1:=create_list();
   mass[1]:=5;
   mass[2]:=10;
@@ -102,7 +95,6 @@ var
   list1: PTList;
   mass:array[1..2] of integer;
 begin
-  new(list1);
   list1:=create_list();
   mass[1]:=5;
   mass[2]:=10;
@@ -116,7 +108,6 @@ var
   list1: PTList;
   mass:array[1..2] of integer;
 begin
-  new(list1);
   list1:=create_list();
   mass[1]:=5;
   mass[2]:=10;
@@ -130,7 +121,6 @@ var
   list1: PTList;
   mass:array[1..2] of integer;
 begin
-  new(list1);
   list1:=create_list();
   mass[1]:=5;
   mass[2]:=10;
@@ -144,7 +134,6 @@ var
   list1: PTList;
   mass:array[1..2] of integer;
 begin
-  new(list1);
   list1:=create_list();
   mass[1]:=5;
   mass[2]:=10;
@@ -158,7 +147,6 @@ var
   list1: PTList;
   mass:array[1..2] of integer;
 begin
-  new(list1);
   list1:=create_list();
   mass[1]:=5;
   mass[2]:=10;
@@ -172,7 +160,6 @@ var
   list1: PTList;
   mass:array[1..2] of integer;
 begin
-  new(list1);
   list1:=create_list();
   mass[1]:=5;
   mass[2]:=10;
@@ -186,7 +173,6 @@ var
   list1: PTList;
   mass:array[1..2] of integer;
 begin
-  new(list1);
   list1:=create_list();
   mass[1]:=5;
   mass[2]:=10;
@@ -200,7 +186,6 @@ var
   list1: PTList;
   mass:array[1..2] of integer;
 begin
-  new(list1);
   list1:=create_list();
   mass[1]:=5;
   mass[2]:=10;
