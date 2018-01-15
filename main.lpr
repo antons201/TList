@@ -139,7 +139,7 @@ begin
   mass[2]:=10;
   insert(get_end(list1), mass [1]);
   insert(get_end(list1), mass [2]);
-  result:=(get_next(get_reversed_end(list1))) = get_next(get_reversed_end(list1));
+  result:=erase(get_begin(list1)) = get_begin(list1);
 end;
 
 function test_19_get_next(): boolean;
@@ -165,7 +165,8 @@ begin
   mass[2]:=10;
   insert(get_end(list1), mass [1]);
   insert(get_end(list1), mass [2]);
-  result:=get_prev(get_next(get_next(get_reversed_end(list1)))) = get_next(get_reversed_end(list1));
+  result:=get_prev(get_next(
+  get_next(get_reversed_end(list1)))) = get_next(get_reversed_end(list1));
 end;
 
 function test_19_is_end(): boolean;
